@@ -1,0 +1,15 @@
+{
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "classifier": "LogisticRegression",
+    "classes": [
+        "code",
+        "creative",
+        "math"
+    ],
+    "seed": 42,
+    "samples_per_domain": 2500,
+    "train_samples": 6000,
+    "test_samples": 1500,
+    "accuracy": 0.992,
+    "macro_f1": 0.992
+}
